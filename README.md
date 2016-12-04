@@ -18,12 +18,12 @@ These SmartApps have two primary uses. The first is to create separate temperatu
 
 The second use case is to calculate the average temperature and humidity for multiple sensors. The average temperature tile could be used as an external temperature sensor for a thermostat SmartApp or it can be used to calculate the average of multiple outside temperature sensors.
 
-These SmartApps rely on the Virtual Temperature Tile and Virtual Humidity Tile available at https://github.com/statusbits/smartthings/tree/master/VirtualThings.
+These SmartApps rely on the Virtual Temperature Tile and Virtual Humidity Tile available at https://github.com/notoriousbdg/statusbits-smartthings/tree/master/VirtualThings.
 
 ##Install Procedure
 
 1. Create new SmartApps at https://graph.api.smartthings.com/ide/apps using the SmartApps at https://github.com/notoriousbdg/SmartThings.AverageThings.
-2. Create a new virtual temperature tile or virtual humidity tile device based on https://github.com/statusbits/smartthings/tree/master/VirtualThings
+2. Create a new virtual temperature tile or virtual humidity tile device based on https://github.com/notoriousbdg/statusbits-smartthings/tree/master/VirtualThings
 3. Install the newly created SmartApp in the SmartThings mobile application.
 4. For target virtual tile prompt, select the virtual tile created in step 2.
 5. Select one or more source sensors.
